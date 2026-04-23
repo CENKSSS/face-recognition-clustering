@@ -341,7 +341,7 @@ def main():
         sys.exit(1)
 
     print(f"\n📊 {len(embeddings)} yüz vektörü elde edildi.")
-    print(f"🧠 Stage 1 — DBSCAN (eşik: {ESIK})...")
+    print(f" Stage 1 — DBSCAN (eşik: {ESIK})...")
     gruplar = gruplari_olustur(embeddings, meta, ESIK)
     print(f"   → {len(gruplar)} grup oluştu.")
 
