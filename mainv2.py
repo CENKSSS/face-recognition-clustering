@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # ─── AYARLAR ──────────────────────────────────────────────────────────────────
-RESIM_KLASORU = r"C:\Users\cenk_\Downloads\archive\lfw-deepfunneled\lfw-deepfunneled"
+RESIM_KLASORU = r"dataset"
 CIKTI_KLASORU = "Kişiler"
 ESIK = 0.45
 KALITE_ESIK = 0.35
