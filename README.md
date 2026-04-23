@@ -1,6 +1,6 @@
 📖 [TÜRKÇE & ENGLISH ]
 
-# 🚀 GPU Hızlandırmalı Yüz Kümeleme Sistemi
+# Otomatik Yüz Tanıma ve Gruplandırma Sistemi
 
 Bu proje, InsightFace ve DBSCAN kullanılarak geliştirilmiş, CUDA ile optimize edilmiş uçtan uca bir yüz kümeleme (face clustering) pipeline’ıdır.
 
@@ -154,7 +154,7 @@ Sadece cluster sayısı doğruluğu garanti etmez; daha detaylı analiz için pu
 📖 ENGLISH
 
 
-🚀 GPU-Accelerated Face Clustering System
+# Automatic Face Recognition and Clustering System
 
 This project is an end-to-end face clustering pipeline developed using InsightFace and DBSCAN, optimized with CUDA.
 
