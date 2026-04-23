@@ -144,9 +144,9 @@ Bu yaklaşım sayesinde:
 
 ## 📸 Örnek Çıktılar
 
-(Buraya ekran görüntüleri ekleyebilirsin)
+![Run2](rmimages/Run2.png)
 
----
+![Cikti1](rmimages/cikti3.png)
 
 ## 📎 Not
 
@@ -258,9 +258,12 @@ InsightFace
 ONNX Runtime (CUDA)
 Scikit-learn (DBSCAN, NearestNeighbors)
 NumPy
+
 📸 Sample Outputs
 
-(You can add screenshots here)
+![Run2](rmimages/Run2.png)
+
+![Cikti1](rmimages/cikti3.png)
 
 📎 Note
 
