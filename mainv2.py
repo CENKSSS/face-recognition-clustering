@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # ─── AYARLAR ──────────────────────────────────────────────────────────────────
-RESIM_KLASORU = r"dataset"
+RESIM_KLASORU = r"C:\Users\cenk_\Downloads\archive\lfw-deepfunneled\lfw-deepfunneled"
 CIKTI_KLASORU = "Kişiler"
 ESIK = 0.45
 KALITE_ESIK = 0.35
@@ -22,14 +22,12 @@ from sklearn.preprocessing import normalize
 from sklearn.neighbors import NearestNeighbors
 from insightface.app import FaceAnalysis
 
-
 def model_yukle():
     print("📦 Model yükleniyor...")
     app = FaceAnalysis(name="buffalo_l", providers=["CUDAExecutionProvider", "CPUExecutionProvider"])
     app.prepare(ctx_id=0, det_size=(640, 640))
     print("✅ Model hazır.\n")
     return app
-
 
 def resimleri_topla(klasor):
     dosyalar = []
@@ -38,7 +36,6 @@ def resimleri_topla(klasor):
             if os.path.splitext(f)[1].lower() in DESTEKLENED_EXT:
                 dosyalar.append(os.path.join(root, f))
     return dosyalar
-
 
 def yuz_kalite_skoru(yuz_img):
     if yuz_img is None or yuz_img.size == 0:
@@ -51,7 +48,6 @@ def yuz_kalite_skoru(yuz_img):
     parlaklik_norm = 1.0 - abs(parlaklik - 128) / 128
     boyut_norm = min(1.0, (h * w) / 10000)  # 100×100 = 10000
     return (blur_norm * 0.5) + (parlaklik_norm * 0.3) + (boyut_norm * 0.2)
-
 
 def landmark_confidence(yuz):
     if not hasattr(yuz, "det_score") or yuz.det_score is None:
@@ -73,7 +69,6 @@ def poz_carpani(yuz):
         if yaw > MAX_YAW:
             return 0.6
     return 1.0
-
 
 def embedding_cikar(app, dosya_listesi):
     embeddings = []
