@@ -137,8 +137,7 @@ Bu yaklaşım sayesinde:
 - InsightFace  
 - ONNX Runtime (CUDA)  
 - Scikit-learn (DBSCAN, NearestNeighbors)  
-- NumPy  <img width="1783" height="842" alt="Run2" src="https://github.com/user-attachments/assets/69accd5a-ac14-4fb3-bf78-80bdc2c7cee6" />
-
+- NumPy 
 
 ---
 
