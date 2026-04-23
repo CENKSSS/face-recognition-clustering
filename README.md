@@ -1,4 +1,4 @@
-[TÜRKÇE & ENGLISH ]
+📖 [TÜRKÇE & ENGLISH ]
 
 # 🚀 GPU Hızlandırmalı Yüz Kümeleme Sistemi
 
@@ -151,6 +151,9 @@ Bu yaklaşım sayesinde:
 
 Sadece cluster sayısı doğruluğu garanti etmez; daha detaylı analiz için purity ve completeness gibi metrikler kullanılabilir.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📖 ENGLISH
+
+
 🚀 GPU-Accelerated Face Clustering System
 
 This project is an end-to-end face clustering pipeline developed using InsightFace and DBSCAN, optimized with CUDA.
